@@ -12,9 +12,9 @@
   "scripts": {
     "codegen": "turbo run codegen",
     "build": "turbo run build",
-    "format:check": "prettier --check '*/**/*.{js,ts}'",
-    "format:write": "prettier --write '*/**/*.{js,ts}'",
-    "lint": "eslint '*/**/*.{js,ts}'",
+    "format:check": "prettier --check */**/*.{js,ts}",
+    "format:write": "prettier --write */**/*.{js,ts}",
+    "lint": "eslint */**/*.{js,ts}",
     "prepare": "husky install"
   },
   "devDependencies": {
