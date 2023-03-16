@@ -1,16 +1,16 @@
 specVersion: 0.0.2
-description: PancakeSwap Lottery
-repository: https://github.com/pancakeswap
+description: Lottery
+repository: https://github.com/lgharibashvili/lottery-smart-contract
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
     name: Lottery
-    network: bsc
+    network: mumbai
     source:
-      address: '0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c'
+      address: '0x4a6cAd9fBAcf6090BC9d0ab71db0d8F1643F359f'
       abi: Lottery
-      startBlock: 8796011
+      startBlock: 33187138
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
